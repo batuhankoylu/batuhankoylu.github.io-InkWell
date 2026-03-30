@@ -2,6 +2,7 @@
 <html lang="tr">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Inkwell - Dovme Dunyasini Kesfet</title>
     <meta
@@ -75,33 +76,36 @@
         <span aria-hidden="true"></span>
       </button>
       <nav class="nav" id="site-nav" aria-label="Ana menu">
-        <button class="nav-link" data-scroll="#about" id="nav-about">Hakkimizda</button>
-        <button class="nav-link" data-scroll="#features" id="nav-features">Ozellikler</button>
-        <button class="nav-link" data-scroll="#screens" id="nav-screens">Ekranlar</button>
+        <button class="nav-link" data-scroll="#about" id="nav-about">Hakkımızda</button>
+        <button class="nav-link" data-scroll="#feature-screens" id="nav-features">Özellikler & Ekranlar</button>
         <button class="nav-link" data-scroll="#waitlist" id="nav-waitlist">Bekleme Listesi</button>
-        <button class="nav-link" data-scroll="#contact" id="nav-contact">Iletisim</button>
+        <button class="nav-link" data-scroll="#contact" id="nav-contact">İletisim</button>
       </nav>
       <div class="header__tools">
         <div class="lang-switch" role="group" aria-label="Dil secimi">
-          <button class="lang-switch__btn is-active" data-lang="tr" type="button">TR</button>
-          <button class="lang-switch__btn" data-lang="en" type="button">EN</button>
+          <button class="lang-switch__btn is-active" data-lang="tr" type="button">
+            <span>TR</span>
+          </button>
+          <button class="lang-switch__btn" data-lang="en" type="button">
+            <span>EN</span>
+          </button>
         </div>
-        <button class="btn btn--small" data-scroll="#waitlist" id="top-cta">Erken Erisim</button>
+        <button class="btn btn--small" data-scroll="#waitlist" id="top-cta">Erken Erişim</button>
       </div>
     </header>
 
     <main id="main-content">
       <section id="hero" class="section hero reveal" aria-labelledby="hero-title">
         <div class="hero__content">
-          <p class="eyebrow" id="hero-eyebrow">Yeni Nesil Dovme Platformu</p>
-          <h1 id="hero-title">Aradigin dovme stilini ve dogru kisiyi daha hizli bul.</h1>
+          <p class="eyebrow" id="hero-eyebrow">Yeni Nesil Dövme Platformu</p>
+          <h1 id="hero-title">Doğru dövme stilini, doğru sanatçıyla buluştur.</h1>
           <p class="hero__text" id="hero-text">
-            Inkwell, dovmeci ile musteri arasinda rahat ve guven veren bir baglanti kurar.
-            Musteri ihtiyacina uygun sanatciya ulasir, sanatci da dogru musteriyle kolayca eslesir.
+            Inkwell, dövme yaptırmak isteyenlerle alanında uzman sanatçıları güvenle bir araya getirir.
+            Kullanıcılar için en doğru eşleşmeyi sunar, sanatçılar için ise kendileri için en uygun müşterilerle buluşmasını sağlar.
           </p>
           <div class="hero__actions">
-            <button class="btn" data-scroll="#waitlist" id="hero-cta-primary">Bekleme Listesine Katil</button>
-            <button class="btn btn--ghost" data-scroll="#features" id="hero-cta-secondary">Nasil Calisir?</button>
+            <button class="btn" data-scroll="#waitlist" id="hero-cta-primary">Bekleme Listesine Katıl</button>
+            <button class="btn btn--ghost" data-scroll="#feature-screens" id="hero-cta-secondary">Nasıl Çalısır?</button>
           </div>
         </div>
         <div class="hero__mockup float">
@@ -114,83 +118,143 @@
         </div>
       </section>
 
-      <section id="about" class="section reveal" aria-labelledby="about-title">
+      <section id="about" class="section reveal">
         <div class="section__head">
-          <p class="eyebrow" id="about-eyebrow">Hakkimizda</p>
-          <h2 id="about-title">Vizyonumuz: dovme surecini herkes icin daha net, hizli ve konforlu hale getirmek.</h2>
+          <p class="eyebrow" id="about-eyebrow">Hakkımızda</p>
+          <div class="about-section" aria-label="Inkwell misyon ve vizyon">
+            <h2 id="mission-title">Misyonumuz</h2>
+            <p id="mission-text-1">
+              Dövme sürecini herkes için daha net, hızlı ve konforlu hale getirmek.
+            </p>
+            <p id="mission-text-2">
+              Inkwell, dövme yaptırmak isteyenler için karar sürecini sadeleştirir; sanatçılar için doğru taleple buluşmayı kolaylaştırır.
+            </p>
+
+            <h2 id="vision-title">Vizyonumuz</h2>
+            <p id="vision-text">
+              Dövme dünyasında sanatçılar ve kullanıcılar arasında güvene dayalı en güçlü bağlantıyı kuran, doğru eşleşmenin standart olduğu bir platform olmak.
+            </p>
+          </div>
         </div>
-        <p class="section__lead" id="about-lead">
-          Inkwell, musteri tarafinda karar vermeyi kolaylastirir; sanatci tarafinda ise dogru talebi bulmayi
-          hizlandirir. Ilk fikirden iletisime ve planlamaya kadar tum adimlar sade, anlasilir ve rahat bir deneyime
-          donusur.
+      </section>
+
+      <section id="feature-screens" class="section reveal">
+        <p class="eyebrow" id="fs-eyebrow">Özellikler & Ekranlar</p>    
+        <h2 id="fs-title">Doğru eşleşmeler, akıcı iletişim ve uçtan uca tasarlanmış bir dövme deneyimi.</h2>
+        <p id="feature-screens-text-1">
+          Inkwell; keşiften iletişime, teklif almadan randevu oluşturmaya kadar tüm süreci tek 	bir akışta birleştirir.
         </p>
+        <p id="feature-screens-text-1">
+          Kullanıcılar ilham alır, tarzına uygun sanatçıları keşfeder ve doğrudan fiyat teklifi alarak karar 	verir.
+        </p>
+        <p id="feature-screens-text-1">
+          Sanatçılar ise çalışmalarını öne çıkarır, doğru kitleye ulaşır ve kendileri için en uygun 	projelerle buluşur.
+        </p>
+        <div class="cols">
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div class="front" style="background-image: url(screen-discover.png)">
+                <div class="inner">
+                  
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Kişiselleştirilmiş Ana Akış</p>
+                  <p>Takip ettiğin sanatçıların paylaşımlarını tek bir akışta keşfet, ilhamını sürekli güncel tut.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div class="front" style="background-image: url(screen-discover.png)">
+                <div class="inner">
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Gelişmiş Keşfet & Arama</p>
+                  <p>Tarz, şehir, hashtag veya sanatçıya göre arama yaparak sana en uygun dövmeleri ve sanatçıları kolayca bul.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div class="front" style="background-image: url(screen-post.png)">
+                <div class="inner">
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Sanatçılar İçin Güçlü Paylaşım</p>
+                  <p>Tasarım ve uygulama çalışmalarını hashtag’lerle paylaş, görünürlüğünü artır ve doğru kitleye ulaş.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div class="front" style="background-image: url(screen-detail.png)">
+                <div class="inner">
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Teklif Al & Karşılaştır</p>
+                  <p>Yaptırmak istediğin dövmeyi yükle, birden fazla sanatçıdan teklif al ve sana en uygun olanı seç.</p>
+                  <p>Tüm teklifler bağımsız değerlendirilir, süreç tamamen şeffaf ve kontrollüdür.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div class="front" style="background-image: url(screen-messages.png)">
+                <div class="inner">
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Mesajlaşma & Güvenli İletişim</p>
+                  <p>Sanatçılarla doğrudan iletişime geç, randevu oluştur ve süreci kolayca yönet.</p>
+                  <p>Gelişmiş şikayet sistemi ile güvenli bir ortamda iletişim kur.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col" ontouchstart="this.classList.toggle('hover');">
+            <div class="container">
+              <div class="front" style="background-image: url(screen-profile.png)">
+                <div class="inner">
+                </div>
+              </div>
+              <div class="back">
+                <div class="inner">
+                  <p>Profil & Portfolyo Yönetimi</p>
+                  <p>Sanatçılar için güçlü bir vitrin, kullanıcılar için ilham kaynağı.</p>
+                  <p>Paylaşımlarını, beğenilerini ve bağlantılarını tek bir yerden yönet.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
-
-      <section id="features" class="section reveal" aria-labelledby="features-title">
-        <div class="section__head">
-          <p class="eyebrow" id="features-eyebrow">Ozellikler</p>
-          <h2 id="features-title">Daha hizli eslesme, daha rahat iletisim ve daha guclu profil deneyimi.</h2>
-        </div>
-        <div class="feature-grid">
-          <article class="feature-card" style="--delay: 0ms">
-            <span class="feature-card__dot" aria-hidden="true"></span>
-            <h3 id="feature-title-1">Akilli Kesif Akisi</h3>
-            <p id="feature-text-1">Tarz, butce ve lokasyon filtreleriyle musteri aradigini daha kisa surede bulur.</p>
-          </article>
-          <article class="feature-card" style="--delay: 120ms">
-            <span class="feature-card__dot" aria-hidden="true"></span>
-            <h3 id="feature-title-2">Sanatci Profilleri</h3>
-            <p id="feature-text-2">Sanatcilar uzmanligini net gosteren profillerle dogru musteriye daha kolay ulasir.</p>
-          </article>
-          <article class="feature-card" style="--delay: 240ms">
-            <span class="feature-card__dot" aria-hidden="true"></span>
-            <h3 id="feature-title-3">Konforlu Eslestirme</h3>
-            <p id="feature-text-3">Kullanici beklentisi ile sanatci hizmetini dogal bir akista bulusturan sistem.</p>
-          </article>
-          <article class="feature-card" style="--delay: 360ms">
-            <span class="feature-card__dot" aria-hidden="true"></span>
-            <h3 id="feature-title-4">Guvenli Iletisim</h3>
-            <p id="feature-text-4">Ilk mesajdan randevu planlamasina kadar herkes icin rahat ve kontrollu iletisim.</p>
-          </article>
-        </div>
-      </section>
-
-      <section id="screens" class="section reveal" aria-labelledby="screens-title">
-        <div class="section__head">
-          <p class="eyebrow" id="screens-eyebrow">Uygulama Ekranlari</p>
-          <h2 id="screens-title">Inkwell deneyimini arayuz uzerinden kesfet.</h2>
-        </div>
-        <div class="screen-grid" aria-label="Inkwell uygulama ekran galerisi">
-          <figure class="screen-card">
-            <img src="./screen-messages.png" alt="Inkwell mesajlar ekrani" loading="lazy" data-parallax="0.03" />
-          </figure>
-          <figure class="screen-card">
-            <img src="./screen-profile.png" alt="Inkwell profil ekrani" loading="lazy" data-parallax="0.05" />
-          </figure>
-          <figure class="screen-card">
-            <img src="./screen-post.png" alt="Inkwell paylasim ekrani" loading="lazy" data-parallax="0.04" />
-          </figure>
-          <figure class="screen-card">
-            <img src="./screen-detail.png" alt="Inkwell detay ekrani" loading="lazy" data-parallax="0.06" />
-          </figure>
-          <figure class="screen-card">
-            <img src="./screen-discover.png" alt="Inkwell kesfet ekrani" loading="lazy" data-parallax="0.035" />
-          </figure>
-        </div>
-      </section>
+      
 
       <section id="waitlist" class="section waitlist reveal" aria-labelledby="waitlist-title">
         <div class="section__head">
           <p class="eyebrow" id="waitlist-eyebrow">Bekleme Listesi</p>
-          <h2 id="waitlist-title">Ilk kullanicilar arasinda yerini al, erken erisim avantajlarini yakala.</h2>
+          <h2 id="waitlist-title">İlk kullanıcılar arasında yerini al, erken erişim avantajlarını yakala.</h2>
         </div>
 
         <div class="role-switch" role="tablist" aria-label="Kayıt tipi seçimi">
           <button class="role-switch__btn is-active" data-role="user" role="tab" aria-selected="true" id="role-user-btn">
-            Kullanici Kaydi
+            Kullanıcı Kaydı
           </button>
           <button class="role-switch__btn" data-role="artist" role="tab" aria-selected="false" id="role-artist-btn">
-            Dovmeci Kaydi
+            Dövmeci/Sanatçı Kaydı
           </button>
         </div>
 
@@ -205,19 +269,19 @@
               <input id="user-email" name="email" type="email" placeholder="ornek@mail.com" required />
             </div>
             <div class="form-row">
-              <label for="user-city" id="label-user-city">Sehir</label>
+              <label for="user-city" id="label-user-city">Şehir</label>
               <input id="user-city" name="city" type="text" placeholder="Istanbul" required />
             </div>
             <label class="check">
               <input type="checkbox" required />
-              <span id="consent-user">Bilgilendirme ve erken erisim iletisimi almayi kabul ediyorum.</span>
+              <span id="consent-user">Bilgilendirme ve erken erişim iletişimi almayı kabul ediyorum.</span>
             </label>
-            <button class="btn btn--full" type="submit" id="submit-user">Kullanici Olarak Kaydol</button>
+            <button class="btn btn--full" type="submit" id="submit-user">Kullanıcı Olarak Kaydol</button>
           </form>
 
           <form id="artist-form" class="form" novalidate>
             <div class="form-row">
-              <label for="artist-name" id="label-artist-name">Studyo / Sanatci Adi</label>
+              <label for="artist-name" id="label-artist-name">Stüdyo / Sanatçı Adı</label>
               <input id="artist-name" name="studio" type="text" placeholder="Studio Ink" required />
             </div>
             <div class="form-row">
@@ -225,18 +289,18 @@
               <input id="artist-email" name="email" type="email" placeholder="studio@mail.com" required />
             </div>
             <div class="form-row">
-              <label for="artist-style" id="label-artist-style">Uzmanlik Stili</label>
+              <label for="artist-style" id="label-artist-style">Uzmanlık Stili</label>
               <input id="artist-style" name="style" type="text" placeholder="Realism, Fine Line..." required />
             </div>
             <div class="form-row">
-              <label for="artist-city" id="label-artist-city">Sehir</label>
+              <label for="artist-city" id="label-artist-city">Şehir</label>
               <input id="artist-city" name="city" type="text" placeholder="Ankara" required />
             </div>
             <label class="check">
               <input type="checkbox" required />
-              <span id="consent-artist">Bilgilendirme ve erken erisim iletisimi almayi kabul ediyorum.</span>
+              <span id="consent-artist">Bilgilendirme ve erken erişim iletişimi almayı kabul ediyorum.</span>
             </label>
-            <button class="btn btn--full" type="submit" id="submit-artist">Dovmeci Olarak Kaydol</button>
+            <button class="btn btn--full" type="submit" id="submit-artist">Dövmeci/Sanatçı Olarak Kaydol</button>
           </form>
         </div>
         <p id="form-feedback" class="form-feedback" aria-live="polite"></p>
@@ -244,19 +308,19 @@
 
       <section id="contact" class="section reveal" aria-labelledby="contact-title">
         <div class="section__head">
-          <p class="eyebrow" id="contact-eyebrow">Iletisim</p>
-          <h2 id="contact-title">Ortakliklar, sanatci katilimi ve erken erisim icin Inkwell ile iletisimde kal.</h2>
+          <p class="eyebrow" id="contact-eyebrow">İletişim</p>
+          <h2 id="contact-title">Ortaklıklar, sanatçı katılımı ve erken erişim için Inkwell ile iletişimde kal.</h2>
         </div>
         <div class="contact-box">
           <p>E-posta: hello@inkwell.app</p>
           <p>Topluluk: inkwell.app/community</p>
-          <button class="btn btn--ghost" data-scroll="#waitlist" id="contact-cta">Hemen Bekleme Listesine Katil</button>
+          <button class="btn btn--ghost" data-scroll="#waitlist" id="contact-cta">Hemen Bekleme Listesine Katıl</button>
         </div>
       </section>
     </main>
 
     <footer class="footer" role="contentinfo">
-      <p id="footer-copy">© 2026 Inkwell. Tum haklari saklidir.</p>
+      <p id="footer-copy">© 2026 Inkwell. Tüm hakları saklıdır.</p>
     </footer>
 
     <script src="./script.js"></script>

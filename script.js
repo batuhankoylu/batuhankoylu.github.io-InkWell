@@ -16,42 +16,62 @@ const i18n = {
     htmlLang: "tr",
     title: "Inkwell - Dovme Dunyasini Kesfet",
     description:
-      "Inkwell ile aradigin dovmeciye veya dogru musteriye daha kolay ulas, konforlu bir eslesme deneyimi yas.",
+      "Inkwell, doğru dövme stilini ve doğru sanatçıyı güvenle buluşturan bir eşleşme deneyimi sunar.",
     ogTitle: "Inkwell - Dovme Dunyasini Kesfet",
-    ogDescription: "Inkwell ile kullanicilar ve dovmeciler arasinda hizli, rahat ve guvenli bir baglanti kur.",
+    ogDescription:
+      "Inkwell; keşiften iletişime, teklif almadan randevu oluşturmaya kadar tüm süreci tek akışta birleştirir.",
     skipLink: "Ana icerige gec",
     menuLabel: "Menüyü aç/kapat",
     navLabel: "Ana menu",
-    navAbout: "Hakkimizda",
-    navFeatures: "Ozellikler",
+    navAbout: "Hakkımızda",
+    navFeatures: "Özellikler & Ekranlar",
     navScreens: "Ekranlar",
     navWaitlist: "Bekleme Listesi",
-    navContact: "Iletisim",
-    topCta: "Erken Erisim",
-    heroEyebrow: "Yeni Nesil Dovme Platformu",
-    heroTitle: "Aradigin dovme stilini ve dogru kisiyi daha hizli bul.",
+    navContact: "İletişim",
+    topCta: "Erken Erişim",
+    heroEyebrow: "Yeni Nesil Dövme Platformu",
+    heroTitle: "Doğru dövme stilini, doğru sanatçıyla buluştur.",
     heroText:
-      "Inkwell, dovmeci ile musteri arasinda rahat ve guven veren bir baglanti kurar. Musteri ihtiyacina uygun sanatciya ulasir, sanatci da dogru musteriyle kolayca eslesir.",
+      "Inkwell, dövme yaptırmak isteyenlerle alanında uzman sanatçıları güvenle bir araya getirir. Kullanıcılar için en doğru eşleşmeyi sunar, sanatçılar için ise kendileri için en uygun müşterilerle buluşmasını sağlar.",
     heroCtaPrimary: "Bekleme Listesine Katil",
     heroCtaSecondary: "Nasil Calisir?",
-    aboutEyebrow: "Hakkimizda",
-    aboutTitle: "Vizyonumuz: dovme surecini herkes icin daha net, hizli ve konforlu hale getirmek.",
-    aboutLead:
-      "Inkwell, musteri tarafinda karar vermeyi kolaylastirir; sanatci tarafinda ise dogru talebi bulmayi hizlandirir. Ilk fikirden iletisime ve planlamaya kadar tum adimlar sade, anlasilir ve rahat bir deneyime donusur.",
-    featuresEyebrow: "Ozellikler",
-    featuresTitle: "Daha hizli eslesme, daha rahat iletisim ve daha guclu profil deneyimi.",
-    featureTitle1: "Akilli Kesif Akisi",
-    featureText1: "Tarz, butce ve lokasyon filtreleriyle musteri aradigini daha kisa surede bulur.",
-    featureTitle2: "Sanatci Profilleri",
-    featureText2: "Sanatcilar uzmanligini net gosteren profillerle dogru musteriye daha kolay ulasir.",
-    featureTitle3: "Konforlu Eslestirme",
-    featureText3: "Kullanici beklentisi ile sanatci hizmetini dogal bir akista bulusturan sistem.",
-    featureTitle4: "Guvenli Iletisim",
-    featureText4: "Ilk mesajdan randevu planlamasina kadar herkes icin rahat ve kontrollu iletisim.",
-    screensEyebrow: "Uygulama Ekranlari",
-    screensTitle: "Inkwell deneyimini arayuz uzerinden kesfet.",
+    aboutEyebrow: "Hakkımızda",
+    aboutTitle: "Misyonumuz",
+    aboutLead: "",
+    aboutMissionTitle: "Misyonumuz",
+    missionText1: "Dövme sürecini herkes için daha net, hızlı ve konforlu hale getirmek.",
+    missionText2:
+      "Inkwell, dövme yaptırmak isteyenler için karar sürecini sadeleştirir; sanatçılar için doğru taleple buluşmayı kolaylaştırır.",
+    visionTitle: "Vizyonumuz",
+    visionText:
+      "Dövme dünyasında sanatçılar ve kullanıcılar arasında güvene dayalı en güçlü bağlantıyı kuran, doğru eşleşmenin standart olduğu bir platform olmak.",
+    fsEyebrow: "Özellikler & Ekranlar",
+    fsTitle: "Doğru eşleşmeler, akıcı iletişim ve uçtan uca tasarlanmış bir dövme deneyimi.",
+    fsLead:
+      "Inkwell; keşiften iletişime, teklif almadan randevu oluşturmaya kadar tüm süreci tek bir akışta birleştirir. Kullanıcılar ilham alır, tarzına uygun sanatçıları keşfeder ve doğrudan fiyat teklifi alarak karar verir. Sanatçılar ise çalışmalarını öne çıkarır, doğru kitleye ulaşır ve kendileri için en uygun projelerle buluşur.",
+    ppTitle1: "Kişiselleştirilmiş Ana Akış",
+    ppText1: "Takip ettiğin sanatçıların paylaşımlarını tek bir akışta keşfet, ilhamını sürekli güncel tut.",
+    ppAlt1: "Inkwell kişiselleştirilmiş ana akış ekranı",
+    ppTitle2: "Gelişmiş Keşfet & Arama",
+    ppText2: "Tarz, şehir, hashtag veya sanatçıya göre arama yaparak sana en uygun dövmeleri ve sanatçıları kolayca bul.",
+    ppAlt2: "Inkwell keşfet ve arama ekranı",
+    ppTitle3: "Sanatçılar İçin Güçlü Paylaşım",
+    ppText3: "Tasarım ve uygulama çalışmalarını hashtag’lerle paylaş, görünürlüğünü artır ve doğru kitleye ulaş.",
+    ppAlt3: "Inkwell paylaşım ekranı",
+    ppTitle4: "Teklif Al & Karşılaştır",
+    ppText4:
+      "Yaptırmak istediğin dövmeyi yükle, birden fazla sanatçıdan teklif al ve sana en uygun olanı seç. Tüm teklifler bağımsız değerlendirilir, süreç tamamen şeffaf ve kontrollüdür.",
+    ppAlt4: "Inkwell teklif ve karşılaştırma ekranı",
+    ppTitle5: "Mesajlaşma & Güvenli İletişim",
+    ppText5:
+      "Sanatçılarla doğrudan iletişime geç, randevu oluştur ve süreci kolayca yönet. Gelişmiş şikayet sistemi ile güvenli bir ortamda iletişim kur.",
+    ppAlt5: "Inkwell mesajlaşma ekranı",
+    ppTitle6: "Profil & Portfolyo Yönetimi",
+    ppText6:
+      "Sanatçılar için güçlü bir vitrin, kullanıcılar için ilham kaynağı. Paylaşımlarını, beğenilerini ve bağlantılarını tek bir yerden yönet.",
+    ppAlt6: "Inkwell profil ve portfolyo ekranı",
     waitlistEyebrow: "Bekleme Listesi",
-    waitlistTitle: "Ilk kullanicilar arasinda yerini al, erken erisim avantajlarini yakala.",
+    waitlistTitle: "İlk kullanıcılar arasında yerini al, erken erişim avantajlarını yakala.",
     roleUserBtn: "Kullanici Kaydi",
     roleArtistBtn: "Dovmeci Kaydi",
     labelUserName: "Ad Soyad",
@@ -70,8 +90,8 @@ const i18n = {
     artistCityPlaceholder: "Ankara",
     consentArtist: "Bilgilendirme ve erken erisim iletisimi almayi kabul ediyorum.",
     submitArtist: "Dovmeci Olarak Kaydol",
-    contactEyebrow: "Iletisim",
-    contactTitle: "Ortakliklar, sanatci katilimi ve erken erisim icin Inkwell ile iletisimde kal.",
+    contactEyebrow: "İletişim",
+    contactTitle: "Ortaklıklar, sanatçı katılımı ve erken erişim için Inkwell ile iletişimde kal.",
     contactCta: "Hemen Bekleme Listesine Katil",
     footerCopy: "© 2026 Inkwell. Tum haklari saklidir.",
     validationError: "Lutfen tum zorunlu alanlari eksiksiz doldurun.",
@@ -91,33 +111,52 @@ const i18n = {
     menuLabel: "Open or close menu",
     navLabel: "Main navigation",
     navAbout: "About",
-    navFeatures: "Features",
+    navFeatures: "Features & Screens",
     navScreens: "Screens",
     navWaitlist: "Waitlist",
     navContact: "Contact",
     topCta: "Early Access",
     heroEyebrow: "Next-Gen Tattoo Platform",
-    heroTitle: "Find the right tattoo style and person faster.",
+    heroTitle: "Find the right tattoo style with the right artist.",
     heroText:
-      "Inkwell builds a trusted and comfortable connection between artists and clients. Clients find the right artist faster, and artists connect with better-fit requests.",
+      "Inkwell brings together people who want tattoos and expert artists with confidence. It offers the best match for users and helps artists connect with the clients that fit them best.",
     heroCtaPrimary: "Join the Waitlist",
     heroCtaSecondary: "How It Works",
     aboutEyebrow: "About",
-    aboutTitle: "Our vision is to make the tattoo journey clearer, faster and more comfortable for everyone.",
-    aboutLead:
-      "Inkwell simplifies decisions for clients and helps artists find the right demand quickly. From first idea to communication and planning, every step becomes simple and smooth.",
-    featuresEyebrow: "Features",
-    featuresTitle: "Faster matching, easier communication and stronger profile experience.",
-    featureTitle1: "Smart Discovery Flow",
-    featureText1: "Clients find what they need faster with style, budget and location filters.",
-    featureTitle2: "Artist Profiles",
-    featureText2: "Artists reach better-fit clients through clear profiles that show their expertise.",
-    featureTitle3: "Comfortable Matching",
-    featureText3: "A natural system that aligns client expectations with artist services.",
-    featureTitle4: "Secure Communication",
-    featureText4: "Comfortable and controlled communication from first message to appointment planning.",
-    screensEyebrow: "App Screens",
-    screensTitle: "Explore the Inkwell experience through the interface.",
+    aboutTitle: "Mission",
+    aboutLead: "",
+    aboutMissionTitle: "Mission",
+    missionText1: "Make the tattoo process clearer, faster and more comfortable for everyone.",
+    missionText2:
+      "Inkwell simplifies the decision process for people who want tattoos and helps artists connect with the right requests.",
+    visionTitle: "Vision",
+    visionText:
+      "To build the strongest trust-based connection between artists and users in the tattoo world—where the right match is the standard.",
+    fsEyebrow: "Features & Screens",
+    fsTitle: "Right matches, smooth communication, and an end-to-end tattoo experience—designed for you.",
+    fsLead:
+      "Inkwell brings everything together in one flow—from discovery to communication and creating appointments without having to wait for offers. Users get inspired, discover artists that fit their style, and decide with direct pricing. Artists showcase their work, reach the right audience, and meet the projects that fit them best.",
+    ppTitle1: "Personalized Main Feed",
+    ppText1: "Discover posts from the artists you follow in one flow, and keep your inspiration fresh.",
+    ppAlt1: "Inkwell personalized main feed screen",
+    ppTitle2: "Advanced Discover & Search",
+    ppText2: "Search by style, city, hashtag or artist to quickly find the tattoos and artists that fit you best.",
+    ppAlt2: "Inkwell discover and search screen",
+    ppTitle3: "Strong Sharing for Artists",
+    ppText3: "Share design and workflow work with hashtags to increase visibility and reach the right audience.",
+    ppAlt3: "Inkwell sharing screen",
+    ppTitle4: "Get Offers & Compare",
+    ppText4:
+      "Upload the tattoo you want, receive offers from multiple artists, and choose the best match for you. All offers are evaluated independently—so the process stays transparent and controlled.",
+    ppAlt4: "Inkwell offers and comparison screen",
+    ppTitle5: "Messaging & Secure Communication",
+    ppText5:
+      "Message artists directly, create appointments, and manage the process easily. Communicate in a safe environment with an advanced complaint system.",
+    ppAlt5: "Inkwell messaging screen",
+    ppTitle6: "Profile & Portfolio Management",
+    ppText6:
+      "A strong showcase for artists and a source of inspiration for users. Manage your posts, likes and connections in one place.",
+    ppAlt6: "Inkwell profile and portfolio screen",
     waitlistEyebrow: "Waitlist",
     waitlistTitle: "Be among the first users and unlock early-access benefits.",
     roleUserBtn: "User Signup",
@@ -190,18 +229,29 @@ const applyLanguage = (lang) => {
   setText("about-eyebrow", t.aboutEyebrow);
   setText("about-title", t.aboutTitle);
   setText("about-lead", t.aboutLead);
-  setText("features-eyebrow", t.featuresEyebrow);
-  setText("features-title", t.featuresTitle);
-  setText("feature-title-1", t.featureTitle1);
-  setText("feature-text-1", t.featureText1);
-  setText("feature-title-2", t.featureTitle2);
-  setText("feature-text-2", t.featureText2);
-  setText("feature-title-3", t.featureTitle3);
-  setText("feature-text-3", t.featureText3);
-  setText("feature-title-4", t.featureTitle4);
-  setText("feature-text-4", t.featureText4);
-  setText("screens-eyebrow", t.screensEyebrow);
-  setText("screens-title", t.screensTitle);
+  setText("mission-title", t.aboutMissionTitle);
+  setText("mission-text-1", t.missionText1);
+  setText("mission-text-2", t.missionText2);
+  setText("vision-title", t.visionTitle);
+  setText("vision-text", t.visionText);
+
+  setText("fs-eyebrow", t.fsEyebrow);
+  setText("fs-title", t.fsTitle);
+  setText("fs-lead", t.fsLead);
+
+  setText("pp-title-1", t.ppTitle1);
+  setText("pp-text-1", t.ppText1);
+  setText("pp-title-2", t.ppTitle2);
+  setText("pp-text-2", t.ppText2);
+  setText("pp-title-3", t.ppTitle3);
+  setText("pp-text-3", t.ppText3);
+  setText("pp-title-4", t.ppTitle4);
+  setText("pp-text-4", t.ppText4);
+  setText("pp-title-5", t.ppTitle5);
+  setText("pp-text-5", t.ppText5);
+  setText("pp-title-6", t.ppTitle6);
+  setText("pp-text-6", t.ppText6);
+
   setText("waitlist-eyebrow", t.waitlistEyebrow);
   setText("waitlist-title", t.waitlistTitle);
   setText("role-user-btn", t.roleUserBtn);
@@ -239,6 +289,13 @@ const applyLanguage = (lang) => {
   const heroScreenImage = document.getElementById("hero-screen-image");
   if (logoImage) logoImage.alt = t.logoAlt;
   if (heroScreenImage) heroScreenImage.alt = t.heroScreenAlt;
+
+  const ppIds = [1, 2, 3, 4, 5, 6];
+  ppIds.forEach((i) => {
+    const img = document.getElementById(`pp-media-${i}`);
+    if (!img) return;
+    img.alt = t[`ppAlt${i}`] || img.alt;
+  });
 
   langButtons.forEach((btn) => {
     btn.classList.toggle("is-active", btn.dataset.lang === lang);
@@ -308,7 +365,7 @@ revealItems.forEach((item) => observer.observe(item));
 const setupParallax = () => {
   if (!parallaxItems.length) return;
   const reduceMotion = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const disableParallax = reduceMotion || window.innerWidth <= 900;
+  const disableParallax = reduceMotion;
 
   if (disableParallax) {
     parallaxItems.forEach((item) => item.style.setProperty("--parallax-y", "0px"));
@@ -377,3 +434,16 @@ Object.values(forms).forEach((form) => {
 });
 
 applyLanguage(currentLang);
+
+// Mobile: dokununca flip (hover yerine)
+const fsCards = document.querySelectorAll(".fs-slider .pp-card");
+if (fsCards.length) {
+  const isMobile = () => window.matchMedia("(max-width: 900px)").matches;
+
+  fsCards.forEach((card) => {
+    card.addEventListener("click", () => {
+      if (!isMobile()) return;
+      card.classList.toggle("is-flipped");
+    });
+  });
+}
